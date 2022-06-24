@@ -24,6 +24,12 @@ h3 {
     font-size: 2.5rem;
 }
 
+li i {
+    margin: 0 15px 0 0;
+    font-size: 1.5rem;
+}
+
+
 /* Utilidades */
 .contenedor {
     max-width: 120rem;
@@ -48,6 +54,10 @@ h3 {
 
 
 /* Sobre Wanda */
+
+.sobre-wanda {
+    padding: 2rem 0;
+}
 
 @media (min-width: 768px) { 
     .sobre-wanda {
@@ -77,12 +87,15 @@ h3 {
     padding: 2rem 0;
 }
 
-.datos-personales, .datos-personales ul {
+.datos-personales-contenedor h3{
     color: #ffffff;
-    line-height: 2;
-    font-size: 1.2rem;
 }
 
+.datos-personales, .datos-personales ul {
+    color: #ffffff;
+    line-height: 2.5;
+    font-size: 1.2rem;
+}
 /* habilidades */
 
 .habilidades, .habilidades {
@@ -110,7 +123,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem 0;
+    padding: 2rem 0;
+    gap: 2rem;
 }
 
 @media (min-width: 768px) { 
@@ -118,7 +132,6 @@ h3 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 2rem 0;
-        gap: 2rem;
     }
     
 }
