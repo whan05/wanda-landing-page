@@ -52,6 +52,15 @@ li i {
     color: #c0392b;
 }
 
+/* hero */
+
+.hero {
+    background-image: url(../img/hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50rem;
+}
 
 /* Sobre Wanda */
 
