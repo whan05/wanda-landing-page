@@ -1,0 +1,130 @@
+/* Goblales */
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+/* Utilidades */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    margin: 0;
+    border-bottom: #c0392b solid 2px;
+}
+
+.header  h1 span{
+    color: #c0392b;
+}
+
+
+/* Sobre Wanda */
+
+@media (min-width: 768px) { 
+    .sobre-wanda {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr) ;
+        gap: 0 5rem;
+    }
+    
+}
+.sobre-wanda img {
+    margin: 0 auto;
+    
+}
+
+
+.sobre-wanda p {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/* Datos Personales */
+
+.datos-personales-contenedor {
+    background-color: #c0392b;
+    padding: 2rem 0;
+}
+
+.datos-personales, .datos-personales ul {
+    color: #ffffff;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+/* habilidades */
+
+.habilidades, .habilidades {
+    padding: 2rem 0;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+/* Experiencia */
+
+.experiencia-contenedor {
+    background-color: #c0392b;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.experiencia ul {
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+/* Galeria */
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem 0;
+}
+
+@media (min-width: 768px) { 
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem 0;
+        gap: 2rem;
+    }
+    
+}
+
+.galeria img {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+}
